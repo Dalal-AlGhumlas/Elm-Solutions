@@ -1,0 +1,32 @@
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+credentials.json
+credentials*.json
+secrets/
+*.pem
+*.key
+
+# Local n8n state and databases
+.n8n/
+n8n_data/
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+
+# Participant data, generated files and backups
+private-data/
+outputs/
+backups/
+
+# Temporary files and caches
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+node_modules/
+__pycache__/
+.venv/
