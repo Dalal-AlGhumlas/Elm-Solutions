@@ -74,6 +74,10 @@
    ```
 4. في n8n: Credential ← Create new ← الصق Client ID و Client Secret ← Sign in with Google.
 
+> بعد الاستيراد، افتح **كل** مربعات Google السبعة واختر الحساب من قائمة Credential بيدك. n8n أحيانًا يعرض اسم الحساب في المربع المستورد بدون ما يربطه فعليًا، فيطلع خطأ *Node does not have any credentials set*. إذا تكرر الخطأ، أنشئ الحساب من داخل المربع نفسه (**+ Create new credential**).
+>
+> انسخ Client ID بزر النسخ في Google Cloud، لا تكتبه بيدك. أي حرف غلط يطلع خطأ `invalid_client`.
+>
 > Google Cloud يتطلب تفعيل التحقق بخطوتين على الحساب.
 > في وضع Testing ينتهي الربط بعد 7 أيام تقريبًا، فأعد Sign in قبل الإرسال الحقيقي.
 
