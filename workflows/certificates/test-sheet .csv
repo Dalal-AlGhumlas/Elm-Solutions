@@ -1,0 +1,5 @@
+name,email,certificate_file,status,sent_at,note,certificate_link
+مشارك أول,participant1@example.com,cert-01.pdf,,,,
+مشارك ثاني,participant2@example.com,cert-02.pdf,,,,
+مشارك ثالث,participant3@example.com,cert-03.pdf,,,,
+شهادته ناقصة,participant4@example.com,cert-99.pdf,,,,
